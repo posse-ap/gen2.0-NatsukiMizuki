@@ -6,18 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kuizy</title>
     <link rel="stylesheet" href="Kuizy.css">
-    <link rel="stylesheet" href="Kuizy.js">
-</head>
-<body>
-<h1>1.この地名はなんて読む？</h1>
+    <link rel="stylesheet" href="reset.css">
 
-<img src="https://d1khcm40x1j0f.cloudfront.net/quiz/34d20397a2a506fe2c1ee636dc011a07.png" alt="高輪の画像">
+</head>
+
+<body>
+
+<h1>ガチで東京の人しか解けない！＃東京の難読地名クイズ</h1>
+
+<h2><span class="under">1.この地名はな</span>んて読む？</h2>
+
+<p><img src="https://d1khcm40x1j0f.cloudfront.net/quiz/34d20397a2a506fe2c1ee636dc011a07.png" alt="高輪の画像"></p>
  
-<ul>
-    <li><strong>たかなわ</strong></li>
-    <li><strong>こうわ</strong></li>
-    <li><strong>たかわ</strong></li>
+
+<ul class="choice" >
+    <li class="right" id="right1">たかなわ</li>
+    <li class="mistake" id="mistake1">こうわ</li>
+    <li class="Mistake" id="mistake2">たかわ</li>
 </ul>
 
+
+<div class="answerbox" id="answerbox1">
+    <h2 class="Right">正解！</h2>
+    <p class="Rightinfo">正解は「たかなわ」です！</p>
+</div>
+
+<div class="bad-answerbox" id="bad-answerbox1">
+    <h2 class="no-Right">不正解！</h2>
+    <p class="Rightinfo">正解は「たかなわ」です！</p>
+</div>
+
+
+<script src="Kuizy.js"></script>
 </body>
+
 </html>

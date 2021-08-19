@@ -1,18 +1,97 @@
-li{
+.choice li{
     list-style-type: square;
       margin: 10px;
-      color:black;
       border: rgb(218, 213, 213) 1px solid;
       border-bottom-width: 2px;
       padding: 10px;
 list-style: none;
 font-size: 20px;
 width: 100%;
-margin: 0auto;
-max-width: 650px;
+max-width: 600px;
+font-weight: bold;
 
 }
-h1 {border-bottom: solid 2px green;
-  display: inline-block;
+
+.right1-after{
+  list-style-type: square; 
+      margin: 10px;
+      background-color: blue;
+      color:white;
+      border: rgb(218, 213, 213) 1px solid;
+      border-bottom-width: 2px;
+      padding: 10px;
+list-style: none;
+font-size: 20px;
+width: 100%;
+max-width: 600px;
+font-weight: bold;
+pointer-events: none;
+}
+
+.mistake1-after{
+  list-style-type: square;
+      margin: 10px;
+      border: rgb(218, 213, 213) 1px solid;
+      border-bottom-width: 2px;
+      padding: 10px;
+list-style: none;
+font-size: 20px;
+width: 100%;
+max-width: 600px;
+font-weight: bold;
+pointer-events: none;
+}
+
+.mistake2-after{
+  list-style-type: square;
+  margin: 10px;
+  border: rgb(218, 213, 213) 1px solid;
+  border-bottom-width: 2px;
+  padding: 10px;
+list-style: none;
+font-size: 20px;
+width: 100%;
+max-width: 600px;
+font-weight: bold;
+pointer-events: none;
+}
+
+h2 {
   font-size: 20px;
 }
+
+.under{
+  border-bottom: solid 2px green;
+}
+
+.answerbox{
+  border: solid rgb(238, 238, 238) 1px;
+  height: 100px;
+  width: 600px;
+  background-color: rgb(238, 238, 238);
+  margin-left: 10px;
+  display: none;
+ 
+}
+
+.Right{
+  font-size: 20px;
+  border-bottom: solid blue 3px;
+  display: inline-block;
+}
+
+
+.bad-answerbox{ border: solid rgb(238, 238, 238) 1px;
+  height: 100px;
+  width: 600px;
+  background-color: rgb(238, 238, 238);
+  margin-left: 10px;
+ display: none;
+ }
+
+ .no-Right{
+  font-size: 20px;
+  border-bottom: solid red 3px;
+  display: inline-block;
+ 
+ }
